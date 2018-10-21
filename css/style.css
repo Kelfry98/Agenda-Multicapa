@@ -1,0 +1,90 @@
+body {
+    background-image: url(/img/mac.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+input{
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    background-color: #F7F8FA;
+    border: 0;
+    outline: 0;
+    transition: 0.3s;
+    font-size: 1.2em;
+    font-family: 'Dancing Script';
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    -webkit-appearance: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: #6BA6B5;
+    transition: 0.3s;
+    font-family: 'Dancing Script';
+    font-size: 1em;
+}
+button:hover{
+    background: rgb(74, 119, 131);
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+}
+.container {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    border-radius: 4%;
+    left: 40%;
+    background-color:#6BA6B5;
+} 
+.contact {
+    position: relative;
+    top: 40px;
+  
+    width: 820px;
+    left: 27%;
+    color: #000;
+    padding: 1%;
+    overflow: scroll;
+    overflow: auto;
+    height: 350px;
+    overflow-x:hidden;
+   
+}
+table{
+    font-family: 'Dancing Script';
+    color: black; 
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+td {
+    border: 1px solid rgba(4, 6, 7, 0.267);
+    padding: 2%;
+   
+}
+
+
+
+ tr:hover {
+    background-color: rgba(145, 222, 241, 0.336);
+    color: #000;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+
